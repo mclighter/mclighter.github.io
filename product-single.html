@@ -20,15 +20,13 @@
   
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
-       <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/app.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
   <script src="javascripts/modernizr.foundation.js"></script>
   
   <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
-
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -42,9 +40,8 @@
 
       <div class="row">
       
-      <!--<a href="index.html"><img src="images/logo.png" alt="desc" class="header_logo" /></a>-->
-      <a href="index.html"><h1>&nbsp; Ultra web &nbsp;&nbsp;&nbsp;<span class="desc">лучшие решения от профессионалов веб-разработки</span></h1></a>
-
+      <a href="index.html"><img src="images/logo.png" alt="desc" class="header_logo" /></a>
+      
       </div>
       
       
@@ -58,10 +55,10 @@
       
         <div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
         
-          <div class="twelve columns">
+        <div class="twelve columns">
             <ul id="menu-header" class="nav-bar horizontal">
             
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class=""><a href="index.html">Home</a></li>
 
               <li class="has-flyout">
                 <a href="#">Example Pages</a><a href="#" class="flyout-toggle"></a>
@@ -96,54 +93,111 @@
            $('ul#menu-header').nav-bar();
             //]]>
             </script>
-
-          </div>
+            
+            </div>
+            
           </div>
 
           
         </div><!-- END Header -->
 
 
+<div class="heading_dots" style="margin-bottom:15px"><h1 class="heading_supersize"><span class="heading_center_bg">PRODUCT NAME</span></h1></div>
 
-      <!-- Slider -->
-        <div class="row show-for-large-up">
-           <div class="twelve columns">
-            <div id="featured"><img src="images/demo1.jpg" alt="desc" /> <img src="images/demo2.jpg" alt="desc" /> <img src="images/demo3.jpg" alt="desc" /></div>
-           </div>
-        </div>
-      <!-- END Slider -->
-      
-      
-      <div class="row"> 
+
+<div class="row">
+<div class="six columns">
+<img src="images/prod_large.jpg" alt="Product Image Description">
+</div>
+
+<div class="six columns">
+<div class="panel">
+				
+				      <h3>Product Price calculator</h3>
+					  <p style="font-style: italic; font-family: Georgia">Not working without a script</p>
+
+
+          <form name="product_list" action="#">
+  
+		  <label><strong>Width (cm)</strong></label>
+		  <input name="width" id="width" value="15" class="input_title_invoice" type="text"><p></p>
+		  
+		  <label><strong>Height (cm)</strong></label>
+		  <input name="length" id="length" value="20" class="input_title_invoice" type="text"><p></p>
+
+          <label style="font-weight:bold">Extras</label>
+           
+           <select name="print">
+		   <option value="1100">Cheese</option>
+           <option value="2900">Vegetables</option>
+		   <option value="1600">Potatos</option>
+           </select>
+					   			   
+			<p style="font-size: 11px; padding: 0 0 11px; margin-top: 9px">
+			<strong>*Cheese:</strong> Some description text goes here.<br> 
+			<strong>*Vegetables:</strong> Some description text goes here.<br> 
+			<strong>*Potatos:</strong> Some description text goes here.
+			</p>		   
+
+	
+	  <input name="unit_price" id="unit_price" value="340.00" type="hidden">
+	
+	  <input value="271" name="sales_price" id="total_item" type="hidden">
+		  
+		  
+	  <p style="font-size: 24px">Totals: <span id="grandTotal">$271</span></p>
+
+      </form>
+
+	</div> <!-- end panel -->
+
+</div>
+</div><!-- end row -->
+
+<h4>Product Info</h4>
+
+    <div class="row">
       <div class="twelve columns">
-        
-      <div class="heading_dots hide-for-small"><h1 class="heading_supersize"><span class="heading_center_bg">Мы делаем сайты</span></h1></div>
 
-      <p class="welcome_text">Мы создаем необычные решения, которые выгодно выделят ваш сайт из миллиона подобных.</p> 
-      <p style="text-align:center"><a href="#" class="button large secondary">Посмотреть примеры решений &raquo;</a> </p>
+      <dl class="tabs three-up">
+        <dd class="active"><a href="#simple1">Overview</a></dd>
+        <dd><a href="#simple2">Spesifications</a></dd>
+        <dd><a href="#simple3">Customer Reviews</a></dd>
+      </dl>
+      
+      <ul class="tabs-content">
+        <li class="active" id="simple1Tab">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus, eget commodo turpis laoreet at. Donec pretium, enim ut tempor mattis, nisi nunc dapibus dui, et ultricies odio justo a elit.</p>
+        <ul>
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+        </ul>
+       
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus, eget commodo turpis laoreet at. Donec pretium, enim ut tempor mattis, nisi nunc dapibus dui, et ultricies odio justo a elit.</p> 
+       
+        </li>
+        <li id="simple2Tab">Some content</li>
+        <li id="simple3Tab"><p><strong>John Doe:</strong> Amazing Product</p> <p><strong>Jane Doe:</strong> Ok Product</p> <p><strong>Doe Doe:</strong> Cool</p></li>
+      </ul>
 
-      
       </div>
-      </div>
-   
-      
+    </div>
+
 
       <div class="row">
-      <div class="twelve columns">
+        <div class="twelve columns">
           <ul id="menu3" class="footer_menu horizontal">
             <li class=""><a href="index.html">Home</a></li>
-          </ul>
-      </div>
-      </div>
-		  
-		  <script type="text/javascript">
-          //<![CDATA[
-          $('ul#menu3').nav-bar();
+          </ul><script type="text/javascript">
+//<![CDATA[
+            $('ul#menu3').nav-bar();
           //]]>
           </script>
-
+        </div>
       </div>
-
+      
+      </div><!-- end page wrap) -->
     </div><!-- end page wrap) -->
     <!-- Included JS Files (Compressed) -->
     <script src="javascripts/foundation.min.js" type="text/javascript">
