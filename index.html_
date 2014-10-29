@@ -1,0 +1,359 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Evgeny Gorchakov | Blog</title>
+<meta name="description" content="Evgeny Gorchakov. Personal blog."/>
+<meta name="author" content="Evgeny Gorchakov"/>
+<meta name="copyright" content="Evgeny Gorchakov, inc. Copyright (c) 2014"/>
+<link rel="stylesheet" href="assets/css/foundation.css"/>
+<link rel="stylesheet" href="assets/css/main.css"/>
+<link rel="stylesheet" href="assets/css/animate.css"/>
+<link rel="stylesheet" href="assets/css/colorbox.css" />
+<script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
+<script src="assets/js/foundation/foundation.js" type="text/javascript"></script>
+<script src="assets/js/foundation/foundation.topbar.js" type="text/javascript"></script>
+<script src="assets/js/foundation/foundation.offcanvas.js" type="text/javascript"></script>
+<script src="assets/js/vendor/modernizr.js" type="text/javascript"></script>
+<script src="assets/js/vendor/jquery.colorbox-min.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+
+<script>
+ new WOW().init();
+</script>
+
+</head>
+<body>
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar show-for-small">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">menu</h1>
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Меню</label></li>
+        <li><a href="#">Раздел</a></li>
+        <li><a href="#">...</a></li>
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Users</label></li>
+        <li><a href="#">Элементы</a></li>
+        <li><a href="#">...</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      
+
+
+
+
+<header class="sticky">
+
+
+	<div class="row sticky">
+	<div class="large-12 columns">
+	<div class="nav-bar right hide-for-small">
+	<div data-magellan-expedition="fixed">
+  	<dl class="sub-nav">
+    	<dd data-magellan-arrival="build"><a href="#build">Home</a></dd>
+    	<dd data-magellan-arrival="js"><a href="#js">UX</a></dd>
+    	<dd data-magellan-arrival="js"><a href="#js">Сайты</a></dd>
+    	<dd data-magellan-arrival="js"><a href="#js">Технологии</a></dd>
+    	<dd data-magellan-arrival="js"><a href="#js">Статьи</a></dd>
+  	</dl>
+</div>
+	</div>
+
+	<h1>Евгений Горчаков <small> web developer</small></h1>
+	
+</header>
+
+<section id="main-block">
+<div class="row">
+<div class="large-12 columns" role="content">
+
+<div class="row">
+	<div class="large-4 columns">
+	<img style="" src="image/web-ui.jpg">
+	</div>
+
+	<div class="large-8 columns">
+<h2>11 лет опыта разработки сайтов и интернет сервисов</h2>
+<hr>
+
+<span class="max-1">ANGULARjs</span>  <span class="max-23">Bootstrap 3</span>
+ <span class="max-1">YII2</span>
+<span class="max-2">BACKBONEjs</span>
+<span class="max-3">GRUNTjs</span> <span class="max-1">Css3</span>
+<span class="max-2">KARMA</span> <span class="max-1">Foundation 5</span> <span class="max-2">JavaScript</span>  
+<span class="max-1">PHP</span>  
+<span class="max-23">Objective C</span>
+<span class="max-2">ActionScript</span> <span class="max-1">C#</span>
+<span class="max-2">UX</span> <span class="max-1">HTML5</span>
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+ 
+<section id="title-2">
+	<div class="row">
+	<div class="large-12 columns">
+	<h1><small>My best practice</small> </h1>
+</section>
+
+
+<section id="main-block2">
+
+<div class="row">
+<div class="large-8 columns" role="content">
+	<article>
+		<li><span class="label secondary round">Больше внимания автоматизации</span>
+
+			<div class="tesis">
+			Автоматизация для фронтенда это: grunt, bower, yooman, и многое другое.<br>
+			Для бекенда : системы непрерывной интеграции (CI), кодгенераторы.
+			Сейчас в моей работе создание нового раздела сводится к набору пары команд в консоли.
+			А раньше приходилось создавать кучу новых файлов вручную ... модели, контроллеры, вьюхи, все это связывать и настраивать.
+			</div>
+
+		<li><span class="label secondary round">Проектируй прежде чем реализовывать</span>
+			<div class="tesis">
+			Прежде чем приступить к созданию приложения, необходим утвержденный прототип.<br>
+			Существует огромное количество решений для создания мокапов(прототипов):
+			<ul class="list">
+				<li><a href="https://wireframe.cc/" class="max-3">https://wireframe.cc/</a></li>
+				<li><a href="http://www.mockflow.com/" class="max-3">http://www.mockflow.com/</a></li>
+				<li><a href="http://www.axure.com/" class="max-3">http://www.axure.com/</a></li>
+			</ul>
+			
+			</div>
+		<li><span class="label secondary round">Следовать лучшим методикам UI-UX</span>
+			<div class="tesis">
+			Использование готовых css фреймворков вроде Bootstrap и Foundation позволяет быстро и качественно сверстать готовую страничку. Эти фреймворки уже содержат в себе множество готовых UI элементов. Сайты на них выглядят немного шаблонно, зато чисто и гармонично.
+			Небольшие правки css придадут сайту индивидуальность.
+
+			<ul class="list">
+				<li><a href="http://foundation.zurb.com/" class="max-3">http://foundation.zurb.com/</a></li>
+				<li><a href="http://getbootstrap.com/" class="max-3">http://getbootstrap.com/</a></li>
+			</ul>
+			</div>
+	</article>
+</div>
+<div class="large-4 columns" role="content">
+	<img style="" src="image/redesign.jpg">
+</div>
+
+</div>
+
+
+
+</section>
+
+<section id="title-2">
+	<div class="row">
+	<div class="large-12 columns">
+	<h1><small>Текущий проект в разработке</small>  <a href="http://vuzia.ru">vuzia.ru</a> <small>(социальная сеть для студентов)</small</h1>
+</section>
+
+<section id="main-block2">
+<div class="row">
+<div class="large-12 columns" role="content">
+
+</section>
+
+<section id="main-content2">
+<div class="row">
+<div class="large-12 columns" role="content">
+<article>
+<div class="row">
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr10.png"><img src="assets/img/scr10.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr11.png"><img src="assets/img/scr11.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr12.png"><img src="assets/img/scr12.png"></a></div>
+			</p>
+		</div>
+</div>
+
+<div class="row">
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInRight" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr13.png"><img src="assets/img/scr13.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInRight" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr14.png"><img src="assets/img/scr14.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInRight" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr15.png"><img src="assets/img/scr15.png"></a></div>
+			</p>
+		</div>
+</div>
+
+<div class="row">
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr16.png"><img src="assets/img/scr16.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr17.png"><img src="assets/img/scr17.png"></a></div>
+			</p>
+		</div>
+
+		<div class="large-4 columns">
+			<p>
+			<div class="wow slideInLeft" data-wow-duration=""><a class="group" title="Профиль пользователя" href="assets/img/scr18.png"><img src="assets/img/scr18.png"></a></div>
+			</p>
+		</div>
+</div>
+
+<p>
+
+</p>
+</article>
+</div>
+</div>
+
+</section>
+
+
+
+<section id="title-2">
+	<div class="row">
+	<div class="large-12 columns">
+	<h1><a href="http://vuzia.ru">vuzia.ru</a> <small> Технологии</small></h1>
+</section>
+
+<section id="main-block5">
+<div class="row">
+<div class="large-9 columns" role="content">
+<article>
+<div class="row">
+<div class="large-6 columns">
+<img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/400x240&text=[img]"/><noscript><img src="http://placehold.it/400x240&text=[img]"/></noscript>
+</div>
+</div>
+<ul class="technology">
+<li><b>Debian и Gentoo</b> - сервера работают на этих ОС</li>
+<li>----------------------</li>
+<li><b>HTML5 и CSS3</b> - стараемся по максимуму использовать новые возможности</li>
+<li>----------------------</li>
+<li><b>Yii</b> - серверный код написан с использованием этого замечательного php-фреймворка, сильно модифицированного для нужд HighLoad.</li>
+<li>----------------------</li>
+<li><b>Backbone.Marionette</b> - клиентский код написан с использованием этого js-фреймворка</li>
+<li>----------------------</li>
+<li><b>Node.js + Socket.IO</b> - Весь реалтайм реализован посредством связки этих технологий</li>
+<li>----------------------</li>
+<li><b>Mysql</b> - используем ее как основную базу данных, смотрим в сторону NoSQL (memcache, mongo)</li>
+<li>----------------------</li>
+<li><b>Sphinx</b> - Используем как основной поисковый механизм </li>
+<li>----------------------</li>
+<li><b>Git</b> - для контроля за кодом</li>
+<li>----------------------</li>
+<li>Также <b>Grunt.js</b>, <b>LESS</b>, и еще множество новых прогрессивных технологий.
+</li>
+<li>Архитектура нашей системы основана на <b>REST</b>, со строгим разделением серверной логики и клиентского приложения.
+</li>
+</ul>
+
+<br><br>
+</article>
+</div>
+</div>
+
+</section>
+ 
+<footer >
+<div class="row">
+<div class="large-12 columns">
+<div class="row">
+<div class="large-6 columns">
+<p>2014<br></p>
+</div>
+
+<div class="large-3 columns">
+Санкт-Петербург <br>
+Росссия<br>
+evgeny.gorchakov@gmail.com<br>
+</div>
+
+<div class="large-3 columns">
+Foundation 5 powered<br>
+Angularjs in future<br>
+Wow script used<br>
+</div>
+
+
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+
+
+<script>
+	$(".group1").colorbox({width:'70%', rel:'group1'});
+	$(".group").colorbox({width:'70%', rel:'group'});
+</script>
+
+
+<script>
+      $(document).foundation();
+
+     
+    </script>
+</body>
+</html>
