@@ -59,16 +59,18 @@ header {
 #main-block {
 	padding-top:100px;
 	padding-bottom:40px;
+	background:#30A7FA;
 	background: linear-gradient(to bottom, #71BEFF 30%,#30A7FA 70%);
-	/*background:#d97b4c;*/
+	
 	color:white;
 }
 
 #main-block.orange {
 	padding-top:100px;
 	padding-bottom:40px;
+	background:chocolate;
 	background: linear-gradient(to bottom, orange 30%,chocolate 70%);
-	/*background:#d97b4c;*/
+	
 	color:white;
 }
 
